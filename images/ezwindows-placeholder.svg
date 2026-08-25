@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">EZWindows screenshot placeholder</title>
+  <desc id="desc">Neutral placeholder image for a future EZWindows project screenshot.</desc>
+  <rect width="720" height="420" fill="#eaf1fb"/>
+  <rect x="54" y="52" width="612" height="316" rx="8" fill="#ffffff" stroke="#c9d7e8"/>
+  <rect x="82" y="82" width="176" height="16" rx="8" fill="#6d5dfc"/>
+  <rect x="82" y="126" width="456" height="14" rx="7" fill="#cad7e7"/>
+  <rect x="82" y="154" width="294" height="14" rx="7" fill="#dbe5f1"/>
+  <rect x="82" y="214" width="546" height="42" rx="8" fill="#eef4fb" stroke="#d6e1ee"/>
+  <rect x="82" y="278" width="240" height="42" rx="8" fill="#eef4fb" stroke="#d6e1ee"/>
+  <rect x="348" y="278" width="280" height="42" rx="8" fill="#eef4fb" stroke="#d6e1ee"/>
+  <text x="360" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102033">EZWindows</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">The Puppy Poster screenshot placeholder</title>
+  <desc id="desc">Neutral placeholder image for a future The Puppy Poster project screenshot.</desc>
+  <rect width="720" height="420" fill="#eaf1fb"/>
+  <rect x="54" y="52" width="612" height="316" rx="8" fill="#ffffff" stroke="#c9d7e8"/>
+  <rect x="82" y="82" width="222" height="16" rx="8" fill="#2563eb"/>
+  <rect x="82" y="126" width="390" height="14" rx="7" fill="#cad7e7"/>
+  <rect x="82" y="154" width="310" height="14" rx="7" fill="#dbe5f1"/>
+  <circle cx="202" cy="256" r="50" fill="#eef4fb" stroke="#d6e1ee"/>
+  <rect x="302" y="210" width="228" height="92" rx="8" fill="#eef4fb" stroke="#d6e1ee"/>
+  <rect x="550" y="210" width="78" height="92" rx="8" fill="#eef4fb" stroke="#d6e1ee"/>
+  <text x="360" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102033">The Puppy Poster</text>
+</svg>

@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1222"/>
+      <stop offset="50%" stop-color="#111a30"/>
+      <stop offset="100%" stop-color="#090d19"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="posterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4dc"/>
+      <stop offset="100%" stop-color="#f5e1b5"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="posterShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="75" x2="1200" y2="75"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="225" x2="1200" y2="225"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="375" x2="1200" y2="375"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="0" y1="675" x2="1200" y2="675"/>
+    <line x1="120" y1="0" x2="120" y2="750"/>
+    <line x1="240" y1="0" x2="240" y2="750"/>
+    <line x1="360" y1="0" x2="360" y2="750"/>
+    <line x1="480" y1="0" x2="480" y2="750"/>
+    <line x1="600" y1="0" x2="600" y2="750"/>
+    <line x1="720" y1="0" x2="720" y2="750"/>
+    <line x1="840" y1="0" x2="840" y2="750"/>
+    <line x1="960" y1="0" x2="960" y2="750"/>
+    <line x1="1080" y1="0" x2="1080" y2="750"/>
+  </g>
+
+  <!-- Ambient Glows -->
+  <circle cx="280" cy="220" r="180" fill="#38bdf8" opacity="0.08" filter="blur(60px)"/>
+  <circle cx="950" cy="500" r="220" fill="#818cf8" opacity="0.09" filter="blur(70px)"/>
+
+  <!-- Storefront Browser Window -->
+  <g transform="translate(60, 45)" filter="url(#dropShadow)">
+    <!-- Browser Frame -->
+    <rect width="1080" height="660" rx="16" fill="#0b1120" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    
+    <!-- Browser Top Bar -->
+    <rect width="1080" height="52" rx="16" fill="#131d33"/>
+    <rect y="40" width="1080" height="12" fill="#131d33"/>
+    <line x1="0" y1="52" x2="1080" y2="52" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Traffic lights -->
+    <circle cx="30" cy="26" r="6" fill="#ef4444"/>
+    <circle cx="48" cy="26" r="6" fill="#f59e0b"/>
+    <circle cx="66" cy="26" r="6" fill="#10b981"/>
+    
+    <!-- URL Search Bar -->
+    <rect x="220" y="12" width="640" height="28" rx="7" fill="#090e1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <!-- Lock Icon -->
+    <g transform="translate(236, 18)" fill="#38bdf8">
+      <rect x="2" y="5" width="10" height="8" rx="1.5" fill="#38bdf8"/>
+      <path d="M4 5V3.5a3 3 0 0 1 6 0V5" stroke="#38bdf8" stroke-width="1.5" fill="none"/>
+    </g>
+    <text x="256" y="31" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500">https://thepuppyposter.com — Shopify Liquid + Gelato API Sync</text>
+    
+    <!-- Store Navigation -->
+    <g transform="translate(40, 75)">
+      <!-- Logo -->
+      <text x="0" y="24" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5px">The Puppy Poster<tspan fill="#38bdf8">.</tspan></text>
+      <!-- Nav Items -->
+      <text x="320" y="22" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Design Custom Poster</text>
+      <text x="500" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Poster Styles</text>
+      <text x="620" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">How It Works</text>
+      <text x="735" y="22" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Reviews</text>
+      <!-- Cart Pill -->
+      <rect x="880" y="3" width="120" height="34" rx="17" fill="url(#cyanGrad)"/>
+      <text x="940" y="25" fill="#080c14" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Cart (1) • $49</text>
+    </g>
+    <line x1="40" y1="125" x2="1040" y2="125" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+    <!-- Main Store Content Layout -->
+    <!-- Left Column: Interactive Poster Canvas Preview -->
+    <g transform="translate(60, 150)">
+      <!-- Canvas Wall Preview -->
+      <rect width="440" height="420" rx="14" fill="#131d33" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      
+      <!-- Framed Poster -->
+      <g transform="translate(95, 30)" filter="url(#posterShadow)">
+        <!-- Outer Frame -->
+        <rect width="250" height="340" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="4"/>
+        <!-- Inner Passepartout -->
+        <rect x="15" y="15" width="220" height="310" fill="url(#posterGrad)"/>
+        
+        <!-- Dog Silhouette Illustration Graphic -->
+        <g transform="translate(125, 125)">
+          <circle cx="0" cy="0" r="54" fill="#292524"/>
+          <!-- Dog Ears & Head vector shape -->
+          <path d="M-28 -15 Q-42 -40 -30 -48 Q-18 -42 -14 -22 Z" fill="#1c1917"/>
+          <path d="M28 -15 Q42 -40 30 -48 Q18 -42 14 -22 Z" fill="#1c1917"/>
+          <circle cx="-12" cy="-6" r="4.5" fill="#ffffff"/>
+          <circle cx="12" cy="-6" r="4.5" fill="#ffffff"/>
+          <ellipse cx="0" cy="12" rx="10" ry="7" fill="#1c1917"/>
+          <path d="M-4 18 Q0 24 4 18" stroke="#1c1917" stroke-width="2" fill="none"/>
+        </g>
+        
+        <!-- Custom Typography on Poster -->
+        <text x="125" y="240" fill="#1c1917" font-family="'Plus Jakarta Sans', serif" font-size="19" font-weight="800" text-anchor="middle" letter-spacing="2px">MILO</text>
+        <text x="125" y="258" fill="#57534e" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1.5px">GOLDEN RETRIEVER • EST. 2021</text>
+        <line x1="75" y1="272" x2="175" y2="272" stroke="#a8a29e" stroke-width="1"/>
+        <text x="125" y="288" fill="#78716c" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="500" text-anchor="middle">51.5074° N, 0.1278° W</text>
+      </g>
+
+      <!-- Live Configurator Status Pill -->
+      <g transform="translate(20, 370)">
+        <rect width="180" height="28" rx="14" fill="rgba(56,189,248,0.15)" stroke="rgba(56,189,248,0.3)" stroke-width="1"/>
+        <circle cx="14" cy="14" r="4" fill="#38bdf8"/>
+        <text x="26" y="18" fill="#e0f2fe" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700">Live Vector Rendering</text>
+      </g>
+    </g>
+
+    <!-- Right Column: Shopify Customizer & API Fulfillment Engine -->
+    <g transform="translate(530, 150)">
+      <!-- Title & Price -->
+      <text x="0" y="24" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="800">Custom Pet Portrait Poster</text>
+      <text x="0" y="52" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700">$49.00 USD <tspan fill="#94a3b8" font-size="12" font-weight="400">/ Free Worldwide Dispatch</tspan></text>
+      
+      <!-- Option 1: Breed & Name Input Fields -->
+      <g transform="translate(0, 75)">
+        <text x="0" y="0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-transform="uppercase" letter-spacing="1px">1. PET DETAILS</text>
+        <rect y="10" width="220" height="38" rx="8" fill="#131d33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+        <text x="14" y="34" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13">Pet Name: Milo</text>
+        
+        <rect x="235" y="10" width="235" height="38" rx="8" fill="#131d33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+        <text x="249" y="34" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13">Breed: Golden Retriever</text>
+      </g>
+
+      <!-- Option 2: Print Size Selector -->
+      <g transform="translate(0, 150)">
+        <text x="0" y="0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-transform="uppercase" letter-spacing="1px">2. SELECT SIZE (PRINT ON DEMAND)</text>
+        <rect y="10" width="145" height="36" rx="8" fill="rgba(56,189,248,0.12)" stroke="#38bdf8" stroke-width="1.5"/>
+        <text x="72" y="33" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">50 × 70 cm (Popular)</text>
+        
+        <rect x="160" y="10" width="145" height="36" rx="8" fill="#131d33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+        <text x="232" y="33" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">30 × 40 cm</text>
+
+        <rect x="320" y="10" width="150" height="36" rx="8" fill="#131d33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+        <text x="395" y="33" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">70 × 100 cm</text>
+      </g>
+
+      <!-- Integration Architecture Box (Gelato API Sync) -->
+      <g transform="translate(0, 225)">
+        <rect width="470" height="115" rx="10" fill="#090e1a" stroke="rgba(129,140,248,0.3)" stroke-width="1.5"/>
+        
+        <!-- Header -->
+        <g transform="translate(16, 16)">
+          <rect width="82" height="20" rx="4" fill="url(#indigoGrad)"/>
+          <text x="41" y="14" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" text-anchor="middle">PHP API LAYER</text>
+          
+          <text x="96" y="15" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Gelato Fulfillment Bridge</text>
+        </g>
+
+        <!-- Process Flow Visual -->
+        <g transform="translate(16, 52)">
+          <!-- Node 1 -->
+          <rect width="105" height="42" rx="6" fill="#131d33" stroke="rgba(255,255,255,0.08)"/>
+          <text x="52" y="20" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Shopify Order</text>
+          <text x="52" y="34" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">Webhook Recv</text>
+          
+          <!-- Arrow 1 -->
+          <path d="M115 21 L135 21 M130 16 L136 21 L130 26" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+
+          <!-- Node 2 -->
+          <rect x="145" width="135" height="42" rx="6" fill="#131d33" stroke="rgba(129,140,248,0.4)"/>
+          <text x="212" y="20" fill="#818cf8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">PHP Middleware</text>
+          <text x="212" y="34" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8.5" text-anchor="middle">Sync &amp; Validate Data</text>
+
+          <!-- Arrow 2 -->
+          <path d="M290 21 L310 21 M305 16 L311 21 L305 26" stroke="#10b981" stroke-width="1.5" fill="none"/>
+
+          <!-- Node 3 -->
+          <rect x="320" width="120" height="42" rx="6" fill="#131d33" stroke="rgba(16,185,129,0.4)"/>
+          <text x="380" y="20" fill="#10b981" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Gelato API</text>
+          <text x="380" y="34" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="8.5" text-anchor="middle">Auto-Fulfillment</text>
+        </g>
+      </g>
+
+      <!-- Buy Button -->
+      <g transform="translate(0, 360)">
+        <rect width="470" height="48" rx="10" fill="url(#cyanGrad)"/>
+        <text x="235" y="30" fill="#080c14" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" font-weight="800" text-anchor="middle" letter-spacing="0.5px">CREATE MY POSTER &amp; CHECKOUT</text>
+      </g>
+    </g>
+  </g>
+</svg>
