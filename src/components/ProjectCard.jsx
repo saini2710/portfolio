@@ -57,16 +57,6 @@ export default function ProjectCard({ project, index, activeFilter, onSelectTag,
           <h3 className="case-title" id={`proj-${project.id}-title`}>
             {project.title}
           </h3>
-
-          <p className="case-description">
-            {project.shortDescription}
-          </p>
-
-          <ul className="case-highlights">
-            {project.highlights.map((highlight, hIdx) => (
-              <li key={hIdx} dangerouslySetInnerHTML={{ __html: highlight }} />
-            ))}
-          </ul>
         </div>
 
         <div className="case-footer-row">
