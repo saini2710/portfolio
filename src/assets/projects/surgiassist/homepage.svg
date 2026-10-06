@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sa-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="sa-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="sa-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#sa-bg)" />
+  
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="70" fill="#0b1324" />
+  <rect x="50" y="22" width="26" height="26" rx="6" fill="#0284c7" />
+  <path d="M63 27v16M55 35h16" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <text x="88" y="40" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" letter-spacing="0.5">SurgiAssist</text>
+  <text x="195" y="40" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">.COM.AU</text>
+  
+  <text x="620" y="40" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="500">Surgical Services</text>
+  <text x="760" y="40" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="500">Our Surgeons</text>
+  <text x="880" y="40" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="500">Book Assistant</text>
+  <rect x="1010" y="16" width="140" height="38" rx="8" fill="url(#sa-cyan)" />
+  <text x="1080" y="40" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Portal Login</text>
+  
+  <!-- Hero Section -->
+  <g transform="translate(50, 110)">
+    <!-- Left Hero Content -->
+    <rect x="0" y="0" width="220" height="30" rx="15" fill="#0369a1" fill-opacity="0.3" stroke="#0284c7" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#38bdf8" />
+    <text x="30" y="20" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">AUSTRALIAN HEALTHCARE NETWORK</text>
+    
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" line-height="1.2">
+      Dedicated Surgical Assistance
+    </text>
+    <text x="0" y="125" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900">
+      &amp; Medical Support Services
+    </text>
+    <text x="0" y="175" fill="#cbd5e1" font-family="sans-serif" font-size="16" max-width="500">
+      Connecting accredited surgical assistants with surgeons, hospitals, and medical clinics
+    </text>
+    <text x="0" y="200" fill="#cbd5e1" font-family="sans-serif" font-size="16">
+      across Australia with seamless booking and credential compliance.
+    </text>
+    
+    <rect x="0" y="235" width="190" height="48" rx="10" fill="url(#sa-cyan)" />
+    <text x="95" y="265" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">Book An Assistant &rarr;</text>
+    
+    <rect x="205" y="235" width="160" height="48" rx="10" fill="transparent" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="285" y="265" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="600" text-anchor="middle">View Specialties</text>
+    
+    <!-- 3 Service Feature Cards -->
+    <g transform="translate(0, 320)">
+      <rect x="0" y="0" width="340" height="150" rx="12" fill="url(#sa-card)" stroke="#334155" stroke-width="1" />
+      <circle cx="35" cy="40" r="16" fill="#0284c7" fill-opacity="0.2" />
+      <path d="M27 40h16M35 32v16" stroke="#38bdf8" stroke-width="2" />
+      <text x="65" y="45" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Accredited Surgeons</text>
+      <text x="25" y="80" fill="#94a3b8" font-family="sans-serif" font-size="13">AHPRA-registered surgical practitioners with specialized expertise in orthopaedics, robotics &amp; general surgery.</text>
+      
+      <rect x="360" y="0" width="340" height="150" rx="12" fill="url(#sa-card)" stroke="#334155" stroke-width="1" />
+      <circle cx="395" cy="40" r="16" fill="#0284c7" fill-opacity="0.2" />
+      <rect x="387" y="32" width="16" height="16" rx="3" stroke="#38bdf8" stroke-width="2" fill="none" />
+      <text x="425" y="45" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Direct Booking System</text>
+      <text x="385" y="80" fill="#94a3b8" font-family="sans-serif" font-size="13">Real-time scheduling for elective surgeries and emergency lists with instant confirmation.</text>
+      
+      <rect x="720" y="0" width="340" height="150" rx="12" fill="url(#sa-card)" stroke="#334155" stroke-width="1" />
+      <circle cx="755" cy="40" r="16" fill="#0284c7" fill-opacity="0.2" />
+      <polygon points="755 30 765 48 745 48" stroke="#38bdf8" stroke-width="2" fill="none" />
+      <text x="785" y="45" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Billing &amp; Compliance</text>
+      <text x="745" y="80" fill="#94a3b8" font-family="sans-serif" font-size="13">Automated MBS item calculation, informed financial consent, and health fund integrations.</text>
+    </g>
+    
+    <!-- Right Dashboard Preview Graphic -->
+    <g transform="translate(680, 0)">
+      <rect x="0" y="0" width="420" height="290" rx="16" fill="#0b1324" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+      <rect x="0" y="0" width="420" height="36" rx="16" fill="#1e293b" />
+      <circle cx="20" cy="18" r="4" fill="#ef4444" />
+      <circle cx="34" cy="18" r="4" fill="#f59e0b" />
+      <circle cx="48" cy="18" r="4" fill="#10b981" />
+      <text x="210" y="23" fill="#94a3b8" font-family="monospace" font-size="11" text-anchor="middle">surgiassist.com.au/booking-portal</text>
+      
+      <rect x="25" y="55" width="370" height="55" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="45" y="78" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">ACTIVE LIST: ORTHOPAEDIC THEATRE 4</text>
+      <text x="45" y="96" fill="#ffffff" font-family="sans-serif" font-size="13">Dr. A. Taylor &bull; Total Knee Arthroplasty (MBS 49518)</text>
+      <rect x="315" y="68" width="65" height="28" rx="6" fill="#10b981" fill-opacity="0.2" />
+      <text x="347" y="86" fill="#10b981" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">CONFIRMED</text>
+      
+      <rect x="25" y="125" width="370" height="55" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="45" y="148" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">SCHEDULED: ROBOTIC UROLOGY THEATRE 2</text>
+      <text x="45" y="166" fill="#ffffff" font-family="sans-serif" font-size="13">Dr. M. Chen &bull; Robotic Prostatectomy (MBS 37210)</text>
+      <rect x="315" y="138" width="65" height="28" rx="6" fill="#0284c7" fill-opacity="0.2" />
+      <text x="347" y="156" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">IN REVIEW</text>
+      
+      <rect x="25" y="195" width="175" height="75" rx="8" fill="#1e293b" />
+      <text x="40" y="222" fill="#94a3b8" font-family="sans-serif" font-size="11">TOTAL ASSISTANTS</text>
+      <text x="40" y="255" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">120+ Active</text>
+      
+      <rect x="220" y="195" width="175" height="75" rx="8" fill="#1e293b" />
+      <text x="235" y="222" fill="#94a3b8" font-family="sans-serif" font-size="11">PROCEDURES FILLED</text>
+      <text x="235" y="255" fill="#10b981" font-family="sans-serif" font-size="26" font-weight="800">99.4% SLA</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="da-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="da-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="da-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#da-bg)" />
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="1200" height="65" fill="#040711" />
+  <rect x="50" y="18" width="28" height="28" rx="6" fill="url(#da-gold)" />
+  <text x="64" y="38" fill="#090d16" font-family="sans-serif" font-size="18" font-weight="900" text-anchor="middle">&Delta;</text>
+  <text x="90" y="38" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" letter-spacing="1">DISCOVERY<tspan fill="#f59e0b">ALERT</tspan></text>
+  
+  <text x="640" y="38" fill="#94a3b8" font-family="sans-serif" font-size="13" font-weight="600">ASX MINING</text>
+  <text x="760" y="38" fill="#94a3b8" font-family="sans-serif" font-size="13" font-weight="600">DRILL RESULTS</text>
+  <text x="890" y="38" fill="#94a3b8" font-family="sans-serif" font-size="13" font-weight="600">ENERGY &amp; CRITICAL</text>
+  <rect x="1030" y="14" width="120" height="36" rx="6" fill="url(#da-gold)" />
+  <text x="1090" y="37" fill="#090d16" font-family="sans-serif" font-size="13" font-weight="800" text-anchor="middle">LIVE FEED</text>
+  
+  <!-- Live Ticker Strip -->
+  <rect x="0" y="65" width="1200" height="34" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+  <text x="50" y="87" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">▲ WA1.AX +14.2%</text>
+  <text x="210" y="87" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">▲ PMT.AX +8.7%</text>
+  <text x="360" y="87" fill="#ef4444" font-family="monospace" font-size="12" font-weight="700">▼ LTR.AX -2.1%</text>
+  <text x="510" y="87" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">▲ DRE.AX +22.5%</text>
+  <text x="680" y="87" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">▲ DEG.AX +4.3%</text>
+  <text x="830" y="87" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="700">&bull; ASX200 8,142.60 (+0.8%)</text>
+  <text x="1040" y="87" fill="#f59e0b" font-family="monospace" font-size="12" font-weight="700">GOLD $2,650/oz</text>
+  
+  <!-- Main Grid Layout -->
+  <g transform="translate(50, 120)">
+    <!-- Main Headline Feature Card -->
+    <rect x="0" y="0" width="720" height="360" rx="14" fill="#131d31" stroke="#1e2d4a" stroke-width="1.5" />
+    <rect x="25" y="25" width="140" height="24" rx="4" fill="#f59e0b" fill-opacity="0.2" />
+    <text x="95" y="41" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">MAJOR DISCOVERY</text>
+    <text x="180" y="41" fill="#64748b" font-family="sans-serif" font-size="12">14 mins ago &bull; West Arunta, WA</text>
+    
+    <text x="25" y="85" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" line-height="1.2">
+      High-Grade Niobium &amp; REE Intersected in Step-Out Drilling
+    </text>
+    <text x="25" y="120" fill="#94a3b8" font-family="sans-serif" font-size="15">
+      Assays confirm standout intercepts exceeding 3.8% Nb₂O₅ with significant heavy rare earths enrichment along a 2.4km strike corridor.
+    </text>
+    
+    <!-- Mini Metric Table -->
+    <rect x="25" y="160" width="670" height="110" rx="8" fill="#0b1120" />
+    <text x="45" y="190" fill="#64748b" font-family="monospace" font-size="11">HOLE ID</text>
+    <text x="45" y="215" fill="#ffffff" font-family="monospace" font-size="14" font-weight="700">LBRC084</text>
+    <text x="45" y="245" fill="#38bdf8" font-family="sans-serif" font-size="12">West Arunta Project</text>
+    
+    <text x="180" y="190" fill="#64748b" font-family="monospace" font-size="11">INTERCEPT</text>
+    <text x="180" y="215" fill="#fbbf24" font-family="monospace" font-size="14" font-weight="700">42m @ 2.9% Nb₂O₅</text>
+    <text x="180" y="245" fill="#94a3b8" font-family="sans-serif" font-size="12">from 84m depth</text>
+    
+    <text x="360" y="190" fill="#64748b" font-family="monospace" font-size="11">PEAK GRADE</text>
+    <text x="360" y="215" fill="#10b981" font-family="monospace" font-size="14" font-weight="700">6.1% Nb₂O₅</text>
+    <text x="360" y="245" fill="#94a3b8" font-family="sans-serif" font-size="12">incl. 8m high-grade zone</text>
+    
+    <text x="540" y="190" fill="#64748b" font-family="monospace" font-size="11">MARKET CAP</text>
+    <text x="540" y="215" fill="#ffffff" font-family="monospace" font-size="14" font-weight="700">$1.48 Billion</text>
+    <text x="540" y="245" fill="#10b981" font-family="monospace" font-size="12">+18.4% Volume Spike</text>
+    
+    <rect x="25" y="295" width="160" height="40" rx="6" fill="url(#da-gold)" />
+    <text x="105" y="320" fill="#090d16" font-family="sans-serif" font-size="13" font-weight="800" text-anchor="middle">Read Full Analysis &rarr;</text>
+    
+    <!-- Right Sidebar Feed -->
+    <g transform="translate(745, 0)">
+      <rect x="0" y="0" width="355" height="360" rx="14" fill="#131d31" stroke="#1e2d4a" stroke-width="1.5" />
+      <rect x="0" y="0" width="355" height="45" rx="14" fill="#1e293b" />
+      <text x="20" y="28" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="800">LATEST ASX DRILL ALERTS</text>
+      <circle cx="330" cy="22" r="5" fill="#10b981" />
+      
+      <g transform="translate(20, 60)">
+        <text x="0" y="16" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="700">GOLD / COPPER &bull; NSW</text>
+        <text x="0" y="36" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Extends Porphyry System 400m</text>
+        <text x="0" y="55" fill="#64748b" font-family="sans-serif" font-size="11">32 mins ago &bull; 188m @ 0.72g/t Au</text>
+        <line x1="0" y1="70" x2="315" y2="70" stroke="#1e2d4a" />
+      </g>
+      
+      <g transform="translate(20, 145)">
+        <text x="0" y="16" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">LITHIUM &bull; JAMES BAY</text>
+        <text x="0" y="36" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Spodumene Pegmatite Swarm</text>
+        <text x="0" y="55" fill="#64748b" font-family="sans-serif" font-size="11">1 hr ago &bull; 56.4m @ 1.84% Li₂O</text>
+        <line x1="0" y1="70" x2="315" y2="70" stroke="#1e2d4a" />
+      </g>
+      
+      <g transform="translate(20, 230)">
+        <text x="0" y="16" fill="#10b981" font-family="monospace" font-size="11" font-weight="700">URANIUM &bull; ATHABASCA</text>
+        <text x="0" y="36" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Winter Drill Program Commences</text>
+        <text x="0" y="55" fill="#64748b" font-family="sans-serif" font-size="11">2 hrs ago &bull; Targeting basement conductor</text>
+      </g>
+    </g>
+    
+    <!-- 3 Bottom Intelligence Cards -->
+    <g transform="translate(0, 385)">
+      <rect x="0" y="0" width="345" height="185" rx="12" fill="#131d31" stroke="#1e2d4a" />
+      <text x="20" y="30" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">CRITICAL MINERALS</text>
+      <text x="20" y="60" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Gallium &amp; Germanium Supply Squeeze</text>
+      <text x="20" y="90" fill="#94a3b8" font-family="sans-serif" font-size="13">Western governments fast-track grants for strategic semiconductor supply chains.</text>
+      
+      <rect x="375" y="0" width="345" height="185" rx="12" fill="#131d31" stroke="#1e2d4a" />
+      <text x="395" y="30" fill="#10b981" font-family="monospace" font-size="11" font-weight="700">M&amp;A ACTIVITY</text>
+      <text x="395" y="60" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">BHP &amp; Rio Tinto Joint Venture Deals</text>
+      <text x="395" y="90" fill="#94a3b8" font-family="sans-serif" font-size="13">Consolidation gathers pace across copper-gold porphyry assets in South America.</text>
+      
+      <rect x="750" y="0" width="350" height="185" rx="12" fill="#131d31" stroke="#1e2d4a" />
+      <text x="770" y="30" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="700">MACRO INSIGHTS</text>
+      <text x="770" y="60" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Gold Breaks Record High Resistance</text>
+      <text x="770" y="90" fill="#94a3b8" font-family="sans-serif" font-size="13">Central bank reserve buying and rate cut expectations propel bullion momentum.</text>
+    </g>
+  </g>
+</svg>

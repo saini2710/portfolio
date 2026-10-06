@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cg-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1219" />
+      <stop offset="100%" stop-color="#0f2324" />
+    </linearGradient>
+    <linearGradient id="cg-teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#cg-bg)" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#071016" />
+  <circle cx="65" cy="35" r="16" fill="url(#cg-teal)" />
+  <text x="65" y="40" fill="#041113" font-family="sans-serif" font-size="14" font-weight="900" text-anchor="middle">CO₂</text>
+  <text x="95" y="42" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" letter-spacing="0.5">CARBOGENETICS</text>
+  
+  <text x="620" y="42" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="600">Technology</text>
+  <text x="735" y="42" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="600">Science &amp; Studies</text>
+  <text x="880" y="42" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="600">Shop Systems</text>
+  <rect x="1030" y="16" width="120" height="38" rx="8" fill="url(#cg-teal)" />
+  <text x="1090" y="40" fill="#041113" font-family="sans-serif" font-size="13" font-weight="800" text-anchor="middle">Buy Now</text>
+  
+  <!-- Hero Section -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="240" height="30" rx="15" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#10b981" />
+    <text x="30" y="20" fill="#10b981" font-family="monospace" font-size="11" font-weight="700">CLINICAL CO₂ THERAPY</text>
+    
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="38" font-weight="900">
+      Accelerate Recovery &amp; Vitality
+    </text>
+    <text x="0" y="125" fill="#10b981" font-family="-apple-system, sans-serif" font-size="38" font-weight="900">
+      Through Transdermal CO₂ Therapy.
+    </text>
+    <text x="0" y="175" fill="#cbd5e1" font-family="sans-serif" font-size="16">
+      Premium medical-grade carbon dioxide delivery systems designed to enhance microcirculation,
+    </text>
+    <text x="0" y="200" fill="#cbd5e1" font-family="sans-serif" font-size="16">
+      optimize cellular oxygen uptake (Bohr Effect), and speed muscular regeneration.
+    </text>
+    
+    <rect x="0" y="235" width="200" height="48" rx="10" fill="url(#cg-teal)" />
+    <text x="100" y="265" fill="#041113" font-family="sans-serif" font-size="15" font-weight="800" text-anchor="middle">Explore The System &rarr;</text>
+    
+    <rect x="215" y="235" width="160" height="48" rx="10" fill="transparent" stroke="#10b981" stroke-width="1.5" />
+    <text x="295" y="265" fill="#10b981" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">Clinical Research</text>
+    
+    <!-- Right Product Showcase Box -->
+    <g transform="translate(680, 0)">
+      <rect x="0" y="0" width="420" height="290" rx="16" fill="#0a181c" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="30" y="45" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">FLAGSHIP SYSTEM</text>
+      <text x="30" y="75" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="900">Carbogenetics Pro System</text>
+      <text x="30" y="100" fill="#94a3b8" font-family="sans-serif" font-size="13">Complete Transdermal Application Kit with Sensor Control</text>
+      
+      <rect x="30" y="120" width="360" height="85" rx="8" fill="#13272c" />
+      <text x="50" y="150" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">&bull; Enhanced Bohr Effect Oxygen Release</text>
+      <text x="50" y="172" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">&bull; +300% Microcirculation Vasodilation</text>
+      <text x="50" y="194" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">&bull; Certified Safe Transdermal Absorption</text>
+      
+      <text x="30" y="250" fill="#10b981" font-family="sans-serif" font-size="24" font-weight="900">$1,850 USD</text>
+      <rect x="250" y="225" width="140" height="42" rx="8" fill="url(#cg-teal)" />
+      <text x="320" y="252" fill="#041113" font-family="sans-serif" font-size="13" font-weight="800" text-anchor="middle">Add to Cart &rarr;</text>
+    </g>
+    
+    <!-- 3 Bottom Clinical Pillars -->
+    <g transform="translate(0, 320)">
+      <rect x="0" y="0" width="340" height="150" rx="12" fill="#0d1b1f" stroke="#1c363d" stroke-width="1" />
+      <text x="25" y="40" fill="#10b981" font-family="sans-serif" font-size="17" font-weight="800">The Bohr Effect</text>
+      <text x="25" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Increases local carbon dioxide concentration, signaling hemoglobin to offload oxygen directly into stressed tissue.</text>
+      
+      <rect x="360" y="0" width="340" height="150" rx="12" fill="#0d1b1f" stroke="#1c363d" stroke-width="1" />
+      <text x="385" y="40" fill="#10b981" font-family="sans-serif" font-size="17" font-weight="800">Nitric Oxide Activation</text>
+      <text x="385" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Stimulates rapid vasodilation of peripheral capillaries, increasing systemic blood flow and nutrient delivery.</text>
+      
+      <rect x="720" y="0" width="340" height="150" rx="12" fill="#0d1b1f" stroke="#1c363d" stroke-width="1" />
+      <text x="745" y="40" fill="#10b981" font-family="sans-serif" font-size="17" font-weight="800">DOMS &amp; Recovery Time</text>
+      <text x="745" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Reduces post-exercise muscular inflammation and accelerates recovery times by up to 50% in elite athletes.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141c2b" />
+      <stop offset="100%" stop-color="#1f2d42" />
+    </linearGradient>
+    <linearGradient id="cm-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#cm-bg)" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#0d1420" />
+  <text x="50" y="44" fill="#f59e0b" font-family="Georgia, serif" font-size="26" font-weight="900" letter-spacing="2">CASAMONA</text>
+  <text x="215" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="1">INTERNATIONAL REAL ESTATE</text>
+  
+  <text x="620" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="500">For Sale</text>
+  <text x="710" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="500">Rentals</text>
+  <text x="800" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="500">Buyer Agent</text>
+  <text x="910" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="500">Neighbourhoods</text>
+  <rect x="1040" y="16" width="110" height="38" rx="6" fill="url(#cm-gold)" />
+  <text x="1095" y="40" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Contact Us</text>
+  
+  <!-- Hero Search Section -->
+  <g transform="translate(50, 105)">
+    <text x="0" y="40" fill="#ffffff" font-family="Georgia, serif" font-size="36" font-weight="700">
+      Exceptional Properties in Barcelona
+    </text>
+    <text x="0" y="75" fill="#f59e0b" font-family="sans-serif" font-size="16" font-weight="600" letter-spacing="0.5">
+      Unique &amp; Different Homes For Sale &amp; Rent &bull; Gothic, Born, Eixample &amp; Gràcia
+    </text>
+    
+    <!-- Search Bar Filter Strip -->
+    <rect x="0" y="105" width="1100" height="75" rx="12" fill="#0d1420" stroke="#334155" stroke-width="1.5" />
+    
+    <g transform="translate(25, 120)">
+      <text x="0" y="16" fill="#94a3b8" font-family="sans-serif" font-size="11">OPERATION</text>
+      <rect x="0" y="24" width="160" height="36" rx="6" fill="#1e293b" />
+      <text x="15" y="47" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">Buy Property &or;</text>
+    </g>
+    
+    <g transform="translate(210, 120)">
+      <text x="0" y="16" fill="#94a3b8" font-family="sans-serif" font-size="11">NEIGHBOURHOOD</text>
+      <rect x="0" y="24" width="220" height="36" rx="6" fill="#1e293b" />
+      <text x="15" y="47" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">Eixample Dret &amp; Born &or;</text>
+    </g>
+    
+    <g transform="translate(455, 120)">
+      <text x="0" y="16" fill="#94a3b8" font-family="sans-serif" font-size="11">PRICE RANGE</text>
+      <rect x="0" y="24" width="200" height="36" rx="6" fill="#1e293b" />
+      <text x="15" y="47" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">€500k &ndash; €2.5M &or;</text>
+    </g>
+    
+    <g transform="translate(680, 120)">
+      <text x="0" y="16" fill="#94a3b8" font-family="sans-serif" font-size="11">BEDROOMS</text>
+      <rect x="0" y="24" width="160" height="36" rx="6" fill="#1e293b" />
+      <text x="15" y="47" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">2+ Bedrooms &or;</text>
+    </g>
+    
+    <rect x="880" y="128" width="190" height="48" rx="8" fill="url(#cm-gold)" />
+    <text x="975" y="158" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="800" text-anchor="middle">Find Properties &rarr;</text>
+    
+    <!-- 3 Featured Property Cards -->
+    <g transform="translate(0, 210)">
+      <!-- Property 1 -->
+      <rect x="0" y="0" width="345" height="375" rx="14" fill="#0d1420" stroke="#334155" />
+      <rect x="0" y="0" width="345" height="190" rx="14" fill="#2d3748" />
+      <path d="M0 0h345v190H0z" fill="#3b4252" />
+      <!-- Terrace Vector Graphic -->
+      <rect x="20" y="20" width="110" height="26" rx="6" fill="#f59e0b" />
+      <text x="75" y="37" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">EXCLUSIVE</text>
+      <rect x="220" y="20" width="105" height="26" rx="6" fill="#000000" fill-opacity="0.6" />
+      <text x="272" y="37" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">TERRACE</text>
+      
+      <text x="20" y="225" fill="#f59e0b" font-family="sans-serif" font-size="22" font-weight="900">€1,450,000</text>
+      <text x="20" y="255" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Penthouse in Eixample Dret</text>
+      <text x="20" y="280" fill="#94a3b8" font-family="sans-serif" font-size="13">3 Bed &bull; 2 Bath &bull; 165m² + 45m² Terrace</text>
+      <text x="20" y="305" fill="#64748b" font-family="sans-serif" font-size="12">High ceilings, Catalan vaults &amp; original hydraulic tiles.</text>
+      <rect x="20" y="325" width="305" height="34" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="172" y="347" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">View Property Details &rarr;</text>
+      
+      <!-- Property 2 -->
+      <rect x="375" y="0" width="345" height="375" rx="14" fill="#0d1420" stroke="#334155" />
+      <rect x="375" y="0" width="345" height="190" rx="14" fill="#2d3748" />
+      <path d="M375 0h345v190H375z" fill="#434c5e" />
+      <rect x="395" y="20" width="100" height="26" rx="6" fill="#10b981" />
+      <text x="445" y="37" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">FOR SALE</text>
+      
+      <text x="395" y="225" fill="#f59e0b" font-family="sans-serif" font-size="22" font-weight="900">€890,000</text>
+      <text x="395" y="255" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Modern Loft in El Born</text>
+      <text x="395" y="280" fill="#94a3b8" font-family="sans-serif" font-size="13">2 Bed &bull; 2 Bath &bull; 120m² &bull; Historic Building</text>
+      <text x="395" y="305" fill="#64748b" font-family="sans-serif" font-size="12">Exposed brickwork, designer kitchen &amp; natural light.</text>
+      <rect x="395" y="325" width="305" height="34" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="547" y="347" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">View Property Details &rarr;</text>
+      
+      <!-- Property 3 -->
+      <rect x="750" y="0" width="350" height="375" rx="14" fill="#0d1420" stroke="#334155" />
+      <rect x="750" y="0" width="350" height="190" rx="14" fill="#2d3748" />
+      <path d="M750 0h350v190H750z" fill="#4c566a" />
+      <rect x="770" y="20" width="110" height="26" rx="6" fill="#0284c7" />
+      <text x="825" y="37" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">RENTAL</text>
+      
+      <text x="770" y="225" fill="#f59e0b" font-family="sans-serif" font-size="22" font-weight="900">€3,200 / month</text>
+      <text x="770" y="255" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="700">Luxury Apartment in Gràcia</text>
+      <text x="770" y="280" fill="#94a3b8" font-family="sans-serif" font-size="13">3 Bed &bull; 2 Bath &bull; 140m² &bull; Furnished</text>
+      <text x="770" y="305" fill="#64748b" font-family="sans-serif" font-size="12">Fully renovated with private balcony &amp; elevator.</text>
+      <rect x="770" y="325" width="310" height="34" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="925" y="347" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">View Property Details &rarr;</text>
+    </g>
+  </g>
+</svg>

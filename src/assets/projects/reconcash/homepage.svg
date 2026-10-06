@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="rc-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#rc-bg)" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#0b0f19" />
+  <rect x="50" y="20" width="30" height="30" rx="6" fill="url(#rc-purple)" />
+  <text x="65" y="42" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle">R</text>
+  <text x="92" y="42" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="22" font-weight="900">RECON<tspan fill="#a855f7">CASH</tspan></text>
+  
+  <text x="600" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="600">Vehicle Inspections</text>
+  <text x="760" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="600">Arbitration Recovery</text>
+  <text x="925" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="14" font-weight="600">Dealer Portal</text>
+  <rect x="1040" y="16" width="110" height="38" rx="6" fill="url(#rc-purple)" />
+  <text x="1095" y="40" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">File Claim</text>
+  
+  <!-- Hero Section -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="260" height="30" rx="15" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#a855f7" />
+    <text x="30" y="20" fill="#a855f7" font-family="monospace" font-size="11" font-weight="700">AUTOMOTIVE ARBITRATION</text>
+    
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="38" font-weight="900">
+      Independent Vehicle Inspections
+    </text>
+    <text x="0" y="125" fill="#a855f7" font-family="-apple-system, sans-serif" font-size="38" font-weight="900">
+      &amp; Auction Arbitration Recovery.
+    </text>
+    <text x="0" y="175" fill="#cbd5e1" font-family="sans-serif" font-size="16">
+      Protecting auto dealers from undisclosed vehicle damage, mechanical defects, and structural issues.
+    </text>
+    <text x="0" y="200" fill="#cbd5e1" font-family="sans-serif" font-size="16">
+      Recover lost auction dollars with expert post-sale inspections and certified arbitration claims.
+    </text>
+    
+    <rect x="0" y="235" width="200" height="48" rx="10" fill="url(#rc-purple)" />
+    <text x="100" y="265" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="800" text-anchor="middle">Schedule Inspection &rarr;</text>
+    
+    <rect x="215" y="235" width="160" height="48" rx="10" fill="transparent" stroke="#a855f7" stroke-width="1.5" />
+    <text x="295" y="265" fill="#a855f7" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">Arbitration Rules</text>
+    
+    <!-- Right Live Arbitration Claim Metric Card -->
+    <g transform="translate(680, 0)">
+      <rect x="0" y="0" width="420" height="290" rx="16" fill="#131b2e" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1" />
+      <text x="30" y="45" fill="#a855f7" font-family="monospace" font-size="12" font-weight="700">DEALER RECOVERY PERFORMANCE</text>
+      
+      <rect x="30" y="65" width="360" height="60" rx="8" fill="#1e293b" />
+      <text x="50" y="90" fill="#94a3b8" font-family="sans-serif" font-size="11">TOTAL RECOVERED ARBITRATION DOLLARS</text>
+      <text x="50" y="115" fill="#10b981" font-family="sans-serif" font-size="22" font-weight="900">$4,250,000+ Recovered</text>
+      
+      <rect x="30" y="135" width="170" height="65" rx="8" fill="#1e293b" />
+      <text x="45" y="160" fill="#94a3b8" font-family="sans-serif" font-size="11">CLAIMS WON</text>
+      <text x="45" y="188" fill="#a855f7" font-family="sans-serif" font-size="22" font-weight="900">96.8% Success</text>
+      
+      <rect x="220" y="135" width="170" height="65" rx="8" fill="#1e293b" />
+      <text x="235" y="160" fill="#94a3b8" font-family="sans-serif" font-size="11">TURNAROUND</text>
+      <text x="235" y="188" fill="#38bdf8" font-family="sans-serif" font-size="22" font-weight="900">&lt; 24 Hours</text>
+      
+      <rect x="30" y="215" width="360" height="50" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="50" y="245" fill="#cbd5e1" font-family="sans-serif" font-size="13">&bull; Structural Frame Inspection &bull; Engine/Transmission &bull; Odometer</text>
+    </g>
+    
+    <!-- 3 Bottom Pillars -->
+    <g transform="translate(0, 320)">
+      <rect x="0" y="0" width="340" height="150" rx="12" fill="#131b2e" stroke="#2a334d" stroke-width="1" />
+      <text x="25" y="40" fill="#a855f7" font-family="sans-serif" font-size="17" font-weight="800">150-Point Inspection</text>
+      <text x="25" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Certified inspectors examine structural integrity, drivetrain diagnostics, cosmetic defects, and flood history.</text>
+      
+      <rect x="360" y="0" width="340" height="150" rx="12" fill="#131b2e" stroke="#2a334d" stroke-width="1" />
+      <text x="385" y="40" fill="#a855f7" font-family="sans-serif" font-size="17" font-weight="800">Auction NAAA Compliance</text>
+      <text x="385" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Full compliance with Manheim, ADESA, and independent auto auction arbitration policies and deadlines.</text>
+      
+      <rect x="720" y="0" width="340" height="150" rx="12" fill="#131b2e" stroke="#2a334d" stroke-width="1" />
+      <text x="745" y="40" fill="#a855f7" font-family="sans-serif" font-size="17" font-weight="800">Territory Operators</text>
+      <text x="745" y="70" fill="#94a3b8" font-family="sans-serif" font-size="13">Scalable platform connecting licensed territory inspection specialists with local dealer networks across North America.</text>
+    </g>
+  </g>
+</svg>
